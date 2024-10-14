@@ -35,7 +35,7 @@ public class bfsSearch {
 //                             0
 //                            /  \
 //                           1     2      ==> the graph will look like after BFS
-//                          /  \    \           0 -1- 3 - 4 - 2 - 5
+//                          /  \    \           0 -1- 2-3- 4 -- 5
 //                         3    4    5
 
 
