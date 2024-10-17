@@ -10,7 +10,7 @@ public class reverseLinkedList {
         }
     }
     public static Node reverseNode(Node head){
-        Node curr = head, prev =null, next=null;
+        Node curr = head, prev =null, next;
 
         while(curr != null){
             next =curr.next;
@@ -28,7 +28,7 @@ public class reverseLinkedList {
         }
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         // Create a hard-coded linked list:
         // 1 -> 2 -> 3 -> 4 -> 5
